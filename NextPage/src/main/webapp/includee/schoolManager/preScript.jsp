@@ -46,7 +46,7 @@ toastr.options = {
 	  "debug": false,
 	  "newestOnTop": false,
 	  "progressBar": true,
-	  "positionClass": "toast-bottom-right",
+	  "positionClass": "toast-top-right",
 	  "preventDuplicates": false,
 	  "onclick": null,
 	  "showDuration": "100",

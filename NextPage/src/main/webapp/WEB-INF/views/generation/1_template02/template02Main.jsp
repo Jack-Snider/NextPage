@@ -543,7 +543,7 @@ table {
 		<!-- 식단 -->
 		<div id="diet" hidden="hidden" class="card" style="background-image: url('/NextPage/resources/img/식단표.png');   background-size: cover;">
 			<br>
-			<div class="text-center">
+			<div class="text-center" style="overflow: auto;">
 				<h5>오늘의 식단</h5>
 				<c:if test="${diet eq null}">휴일</c:if>
 				<c:if test="${diet.lunch ne null}">

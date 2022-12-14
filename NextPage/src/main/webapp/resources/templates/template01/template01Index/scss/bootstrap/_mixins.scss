@@ -1,41 +1,31 @@
-// Toggles
-//
-// Used in conjunction with global variables to enable certain theme features.
+<style>
+  
+</style> 
+<h1>What is NextPage?</h1>
 
-// Utilities
-@import "mixins/breakpoints";
-@import "mixins/hover";
-@import "mixins/image";
-@import "mixins/badge";
-@import "mixins/resize";
-@import "mixins/screen-reader";
-@import "mixins/size";
-@import "mixins/reset-text";
-@import "mixins/text-emphasis";
-@import "mixins/text-hide";
-@import "mixins/text-truncate";
-@import "mixins/visibility";
+<p>
+Since you are not a programmer, you have to learn programming skills for building website. <br>
+However, our service Nextpage, provies you to build school website with just only clicking some buttons <br>
+and adding some texts. You can design your own template, layout and add functions you want.
+</p>
 
-// // Components
-@import "mixins/alert";
-@import "mixins/buttons";
-@import "mixins/caret";
-@import "mixins/pagination";
-@import "mixins/lists";
-@import "mixins/list-group";
-@import "mixins/nav-divider";
-@import "mixins/forms";
-@import "mixins/table-row";
+<h1>Languages</h1>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=HTML&logoColor=white">
 
-// // Skins
-@import "mixins/background-variant";
-@import "mixins/border-radius";
-@import "mixins/box-shadow";
-@import "mixins/gradients";
-@import "mixins/transition";
-
-// // Layout
-@import "mixins/clearfix";
-@import "mixins/grid-framework";
-@import "mixins/grid";
-@import "mixins/float";
+<h1>Tools</h1>
+<table border = "1">
+ <thead>
+   <tr>
+     <td>NAME</td>
+     <td>VERSION</td>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td>Eclipse</td>
+     <td>1.5</td>
+   </tr>
+ </tbody>
+</table>

@@ -115,7 +115,7 @@ public class TeacherInsertAllController {
 			if(check==false)
 			{
 				System.out.println("들어옴1");
-				dir = new File("C:/Users/SEM-PC/deskTop/3조");
+				dir = new File("C:/Users/SEM-PC/deskTop/3조/");
 				String[] fileNm = dir.list();
 				if(fileNm!=null)
 				{
@@ -123,7 +123,7 @@ public class TeacherInsertAllController {
 						   if((fileName+".xlsx").equals(fileNm[i]))
 						   {
 							   System.out.println("들어옴11");
-							    directory = "C:/Users/SEM-PC/deskTop/3조";
+							    directory = "C:/Users/SEM-PC/deskTop/3조/";
 								filePath = directory + fileName + ".xlsx";
 							 	check=true;
 						   }

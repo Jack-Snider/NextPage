@@ -20,7 +20,7 @@ dl{
 			${map.drctnUrl}
 		</div>
 
-		<div class="m-5">
+		<%-- <div class="m-5">
 			<ul>
 				<li class="fa-solid fa-location-dot">&nbsp;주소
 					<dl >
@@ -36,5 +36,5 @@ dl{
 				</li>
 			</ul>
 
-		</div>
+		</div> --%>
 	</div>
