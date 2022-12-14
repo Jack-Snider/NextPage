@@ -23,7 +23,7 @@ public class nextpageAutoLoginController {
 	String view = "redirect:/nextpage/nextPageMain";
 	String message="";
 	
-	@RequestMapping ("/student")
+	@RequestMapping ("/admin")
 	public String adminAutoLogin(
 			HttpSession session
 			,RedirectAttributes redirectAttributes

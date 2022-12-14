@@ -5,7 +5,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <div class="site-section">
 
-	<div class="container pt-5 mb-5" style="border:1px solid gray;">
+	<div class="container pt-5 mb-5" >
 	<c:if test="${symb.schmtt ne null}">
 	
 		<div class="row" style="float: left;">

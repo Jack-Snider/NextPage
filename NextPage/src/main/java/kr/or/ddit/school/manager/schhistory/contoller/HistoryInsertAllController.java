@@ -111,7 +111,7 @@ public class HistoryInsertAllController {
 			if(check==false)
 			{
 				System.out.println("들어옴1");
-				dir = new File("C:/Users/SEM-PC/DeskTop/3조");
+				dir = new File("C:/Users/SEM-PC/DeskTop/3조/");
 				String[] fileNm = dir.list();
 				if(fileNm!=null)
 				{
@@ -119,7 +119,7 @@ public class HistoryInsertAllController {
 					   if((fileName+".xlsx").equals(fileNm[i]))
 					   {
 						   System.out.println("들어옴11");
-						    directory = "C:/Users/SEM-PC/DeskTop/3조";
+						    directory = "C:/Users/SEM-PC/DeskTop/3조/";
 							filePath = directory + fileName + ".xlsx";
 						 	check=true;
 					   }

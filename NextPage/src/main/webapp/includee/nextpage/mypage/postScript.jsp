@@ -11,8 +11,8 @@
 
 <!--     Template Javascript -->
     <script src="<%=request.getContextPath() %>/resources/templates/nextpage/js/main.js"></script>
-	
-	
+
+
 
 <!-- 옆에 아코디언 열었다 닫았다 -->
     <script src="/NextPage/resources/templates/operator/assets/js/main.js"></script>
@@ -27,8 +27,8 @@
 	$(document).ready(function() {
 
 		//var url = 'ws://' + window.location.host + '${pageContext.request.contextPath}/usersServerEndpoint';
-// 		var url = 'ws://localhost:81/NextPage/alram';
-		var url = 'ws://192.168.143.14/NextPage/alram';
+// 		var url = 'ws://localhost/NextPage/alram';
+		var url = 'ws://192.168.143.3:8880/NextPage/alram';
 
 		webSocket = connection(url);
 		webSocket.onopen = function(){ processOpen(); };
